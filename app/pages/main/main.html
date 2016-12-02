@@ -20,7 +20,7 @@
     <StackLayout tkMainContent>
         
         <Label [text]="mainContentText" textWrap="true" class="drawerContentText"></Label>
-        <Button text="OPEN DRAWER" (tap)=openDrawer()></Button>
+        <Button text="Open draw" (tap)=openDrawer()></Button>
         <RadListView [items]="dataItems" height="300">
             <template tkListItemTemplate let-item="item">
                 <StackLayout orientation="vertical">
